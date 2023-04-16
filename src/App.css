@@ -1,0 +1,16 @@
+.App {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 100%;
+    max-width: 40rem;
+    margin: 2rem auto 0 auto;
+    min-height: 100%;
+}
+
+@media (max-width: 800px) {
+    .App {
+        padding: 1rem;
+    }
+}

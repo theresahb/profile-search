@@ -1,0 +1,23 @@
+.search-form {
+    width: 100%;
+}
+
+.search-bar {
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: #ffffff;
+    padding: .9rem .5rem .9rem 1rem;
+    border-radius: 3px;
+}
+
+.search-bar::placeholder {
+    font-style: italic;
+    opacity: .8;
+    font-weight: 300;
+}
+
+.search-bar::-webkit-search-cancel-button {
+    cursor: pointer;
+    filter: invert(43%) sepia(84%) saturate(483%) hue-rotate(279deg) brightness(85%) contrast(95%);
+}
